@@ -9,7 +9,7 @@ Param (
 $fromaddress = "noreply@viking.bm" 
 $toaddress =  $user+"@viking.bm" 
 $Subject = ("Print To Email Job: "+$jobname) 
-$body = "Print to EMail By: "+$user
+$body = "Print to EMail From: "+$user
 $attachment = $file 
 $smtpserver = "viking-bm.mail.protection.outlook.com " 
 
